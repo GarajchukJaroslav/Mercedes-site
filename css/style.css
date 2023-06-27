@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Основные стили */
+
+body {
+	background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
+	color: #FFF;
+	font-size: 16px;
+	font-family: 'Roboto Condensed';
+	line-height: 120%;
+}
+
+.header {
+	background-color: #070A1B;
+}
+
+.container {
+	max-width: 1980px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header__top {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__list {
+	display: flex;
+	gap: 35px;
+}
+
+.nav__list-item {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+
+.nav__list-item:hover {
+	background: #C1A1D2;
+	border-radius: 50%;
+}
+
+.header__content {
+	background: url('../img/main.png');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.header__title {
+	color: #FFF;
+	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	font-size: 72px;
+	font-family: Corporate A;
+	font-weight: 700;
+	line-height: 120%;
+	padding-top: 631px;
+	margin-bottom: 5px;
+}
+
+.header__text {
+	color: #FFF;
+	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 120%;
+	margin-bottom: 24px;
+}
+
+.header__icon {
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Concept */
+
+.concept__inner {
+	margin-top: 150px;
+	margin-left: 660px;
+	margin-bottom: 150px;
+	width: 900px;
+}
+
+.section__title {
+	color: #F402A2;
+	font-size: 18px;
+	font-family: Corporate A;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.concept__text {
+	font-size: 24px;
+	font-family: Roboto Condensed;
+	line-height: 120%;
+	margin-bottom: 25px;
+}
+
+/* Premier */
+
+.premier__inner {
+	display: flex;
+	justify-content: center;
+	gap: 61px;
+	margin-bottom: 150px;
+}
+
+.premier__fst {
+	width: 570px;
+}
+
+.premier__text_last {
+	margin-bottom: 25px;
+}
+
+.premier__link {
+	display: block;
+	text-decoration: none;
+	border: 1px solid #F402A2;
+	padding: 14px 260px;
+	margin-top: 25px;
+}
+
+.premier__sec {
+	width: 569px;
+}
+
+.premier__sec-img {
+	margin-bottom: 21px;
+}
+
+
+/* Видео */
+
+.video{
+	margin: 0 auto;
+}
+
+.video__img {
+	margin-left: 360px;
+	margin-bottom: 25px;
+}
+
+.video__btn {
+	width: 1200px;
+	height: 50px;
+	color: #F402A2;
+	border: 1px solid #F402A2;
+	margin-left: 360px;
+	margin-bottom: 150px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Corporate A;
+	font-weight: 700;
+	line-height: 120%;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.video__btn-text::before{
+	content: "";
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/svg/play.svg");
+	background-repeat: no-repeat;
+	
+}
+
+
+
+
+
+
+
+
